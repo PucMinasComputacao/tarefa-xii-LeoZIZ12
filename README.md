@@ -26,7 +26,7 @@ Um print da tela mostrando:
 Lista de filmes carregada:
 ![alt text](<Captura de Tela 2026-05-22 às 17.57.13.png>)
 Resultado após usar a pesquisa/filtro:
-![alt text](<Captura de Tela 2026-05-22 às 17.57.56.png>)
+![alt text](<Captura de Tela 2026-05-22 às 17.57.56.png>)
 Breve descrição (2–3 linhas) do fluxo:
 Fetch busca os filmes na API → o loop filtra pelo texto digitado → o HTML dos cards é montado em str e jogado na tela de uma vez.Fetch busca os filmes na API → o loop filtra pelo texto digitado → o HTML dos cards é montado em str e jogado na tela de uma vez.
 requisição → tratamento → renderização
