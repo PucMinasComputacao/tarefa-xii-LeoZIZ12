@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+<body onload="createMovieCard()">
+    <header>
+        <h1>Cine<span>Hoje</span></h1>
+        <p>Filmes em cartaz hoje</p>
+        <div class="busca">
+            <input id="text" placeholder="Buscar filme..." />
+            <button onclick="renderMovies()">Buscar</button>
+        </div>
+    </header>
+ 
+    <div id="movie-list" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 px-4 py-4"></div>
+ 
+    <p style='color:#888; padding: 20px;'id="message"></p>
+ 
+    <script src="script.js"></script>
 </body>
 </html>
