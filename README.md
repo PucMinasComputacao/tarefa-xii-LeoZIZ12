@@ -18,12 +18,16 @@ Tratamento básico de erros em requisições
 
 - Nome:Leonardo Martins Macedo
 - Matricula:908180
-
-## Prints do trabalho
-
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+- Nome:Leonardo Martins Macedo
+- Matricula:908180
+Qual endpoint você escolheu usar:
+Em cartaz
+Um print da tela mostrando:
+Lista de filmes carregada:
+![alt text](<Captura de Tela 2026-05-22 às 17.57.13.png>)
+Resultado após usar a pesquisa/filtro:
+![alt text](<Captura de Tela 2026-05-22 às 17.57.56.png>)
+Breve descrição (2–3 linhas) do fluxo:
+Fetch busca os filmes na API → o loop filtra pelo texto digitado → o HTML dos cards é montado em str e jogado na tela de uma vez.Fetch busca os filmes na API → o loop filtra pelo texto digitado → o HTML dos cards é montado em str e jogado na tela de uma vez.
+requisição → tratamento → renderização
 
